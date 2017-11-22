@@ -1,3 +1,275 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Header */
+
+header { /* Dando formato a la caja principal de header*/
+  	position: fixed;
+    width: 100%;
+  	background-color: #2c3e50;
+  	height: 107px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+}
+
+.menu { /* Ubicando menu a la derecha de header*/
+	float:right;
+	padding:0;
+	margin:0;
+	padding-top: 43px;
+	padding-right: 298px;
+}
+
+.menu a { /* Insertando espacio entre elementos de menu*/
+	padding-left: 15px;
+}
+h1 { /*Ubicando el titulo de header a la izquierda */
+	float: left;
+	padding:0;
+	margin:0;
+	padding-top: 31px;
+	padding-left: 298px;
+}
+
+.text-uppercase { /* Creando clase para transformar letras en mayusculas*/
+  text-transform: uppercase;
+}
+
+
+/* Seccion Primera*/
+
+main { /* Dando formato a la caja principal de la Primera Seccion  */
+	width: 100%;
+	height: 588px;
+	background: #18BC9C;
+	color:#FFFFFF;
+	padding: 0;
+	margin: 0;
+	padding-top: 199px;
+	text-align: center;
+}
+
+.clear {  /* Creando clase para poner clear despues de aplicar un float*/
+	clear: left;
+	clear: right;
+}
+
+
+main h2 {  /* Dando formato a titulo de la Primera Seccion */
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 20px;
+	font-size: 83px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+main p { /* Dando formato a segunda linea de la Primera Seccion */
+	font-size: 29px;
+	font-family: 'Lato', sans-serif;
+	padding-top: 37px;
+	font-weight: 400;
+}
+
+
+/* Seccion Portfolio*/
+
+.portfolio { /* Dando formato a la caja principal de la seccion Portafolio*/
+	background: #FFFFFF;
+	color:#343a40;
+	width: 100%;
+	height:836px;
+	font-size: 35px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	text-align: center;
+}
+
+.portfolio h2  { /* Dando formato a titulo de la seccion Portafolio */
+	padding-top: 58px
+}
+
+.portfolio div a img { /* Dando formato y ubicando a imagenes de la seccion Portafolio */
+	width: 347px;
+	float: left;
+	padding-left: 30px;
+}
+
+.set1-imgs, /* Ubicando a imagenes de la seccion Portafolio */
+.set2-imgs {
+	width: 100%;
+	height: 260px;
+	padding-top: 18px;
+	display: inline-block;
+}
+
+.full-portfolio { /* Ubicando a imagenes de la seccion Portafolio */
+	height: 615px;
+	width:69%;
+	margin: auto;
+}
+
+
+/* Seccion About */
+
+.about { /* Dando formato a la caja principal de la seccion About*/
+	background: #18BC9C;
+	color:#FFFFFF;
+	width: 100%;
+	height:565px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.about h2 {  /* Dando formato a titulo de la seccion About */
+	font-weight: 900;
+	font-size: 53px;
+	padding-top: 98px;
+}
+
+.about div div {  /* Ubicando los parrafos de la seccion Portafolio */
+	height: 199px;
+	padding-left: 493px;
+}
+
+.about div div p {  /* Dando formato a los parrafos de la seccion Portafolio */
+	float: left;
+	height: 152px;
+	width: 354px;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.download { /* Dando formato al boton "Download Theme" de la seccion Portafolio */
+	background: #18BC9C;
+	border: solid #FFFFFF 1px;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+/* Seccion Contact me*/
+
+.contact-me { /* Dando formato a la caja principal de la seccion Contact me*/
+	background: #FFFFFF;
+	width: 100%;
+	height:930px;
+	text-align: center;
+	padding-top: 55px;
+}
+
+.contact-me h2 { /* Dando formato a titulo de la seccion Contact me */
+	color: #343a40;
+	font-size: 35px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+div form {   /* Acomodando formulario de la seccion Contact me*/
+
+	border: solid #FFFFFF 1px;
+	width: 723px;
+	margin-left: 520px;
+}
+
+form input { /* Dando formato formulario de la seccion Contact me*/
+  display: block;
+  border: none;
+  font-size: 23px;
+  color: #868e96;
+}
+
+form hr { /*Acomodando formulario de la seccion Contact me*/
+  color: #868e96;
+
+}
+
+.last { /*Acomodando formulario de la seccion Contact me*/
+  padding-bottom: 160px;
+}
+
+.button-send { /* Dando formato y acomodando boton "Send" de la seccion Contact me*/
+	background: #18BC9C;
+    border: solid #FFFFFF 1px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 564px;
+}
+
+
+/*Footer*/
+
+footer { /* Dando formato a la caja principal de la seccion Footer*/
+  width: 100%;
+  height: 372px;
+  background: #2C3E50;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.text p { /* Dando formato a texto de Footer*/
+	padding-top: 5px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.location .text,
+.about-freelancer .text {/* Dando espacio entre texto de Footer*/
+	padding: 6px;
+}
+
+.footer-subs { /* Dando formato a titulos de Footer*/
+	font-weight: 900;
+	font-size: 26px;
+}
+
+#green-letter { /* Dando formato a texto de Footer*/
+	color: #18bc9c;
+}
+
+.location,
+.around-web,
+.about-freelancer { /* Acomodadndo cajas principales que contienen el texto de Footer*/
+	height: 241px;
+	width: 33.2%;
+	float: left;
+	padding-top: 52px;
+
+}
+
+.copyright { /* Acomodando caja de copyright al fondo*/
+	width: 100%;
+	height: 67px;
+	display: inline-block;
+	font-size: 13px;
+	background: rgb(26,37,47);
+	padding-top: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
